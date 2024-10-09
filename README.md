@@ -1,4 +1,4 @@
-# Disaster Response Prediction
+# Multimodal Disaster Response
 
 This project implements a multi-model disaster response prediction system using pre-trained BERT models from Hugging Face. It provides a Gradio interface for easy interaction and prediction.
 
@@ -38,7 +38,7 @@ This project implements a multi-model disaster response prediction system using 
 
 Start the script:
 ```
-python disaster_response_prediction.py
+python main.py
 ```
 
 This opens a Gradio interface where you can:
