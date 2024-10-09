@@ -1,11 +1,9 @@
 import gradio as gr
 import numpy as np
 import warnings
-from transformers import AutoTokenizer, AutoConfig, TFAutoModel, TFBertModel
+from transformers import AutoTokenizer, AutoConfig, TFBertModel
 import os
-from huggingface_hub import HfApi, HfFolder, hf_hub_download
-import tensorflow as tf
-from tensorflow.keras import mixed_precision
+from huggingface_hub import hf_hub_download
 from tensorflow.keras.models import load_model
 from tensorflow.keras.utils import custom_object_scope
 
