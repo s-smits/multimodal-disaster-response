@@ -1,6 +1,6 @@
 # Multimodal Disaster Response
 
-This project implements a multi-model disaster response prediction system using pre-trained BERT models from Hugging Face. It provides a Gradio interface for easy interaction and prediction.
+This project implements a multi-model disaster response prediction system using pre-trained SoTA Embeddings models ([MTEB leaderboard](https://huggingface.co/spaces/mteb/leaderboard)) from Hugging Face. It provides a Gradio interface for easy interaction and prediction.
 
 ## Installation
 
